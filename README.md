@@ -144,7 +144,7 @@ python evolution_simulator.py --reconstruct "father" --years 2000
 
 ---
 
-## 📖 Full Monograph
+## 📖 Summary of work process
 
 Read the complete 8-chapter monograph in [monograph/GRAND_UNIFIED_LINGUISTIC_MONOGRAPH.md](monograph/GRAND_UNIFIED_LINGUISTIC_MONOGRAPH.md).
 
