@@ -22,28 +22,6 @@ This repository contains the complete empirical dataset, computational pipeline,
 * **Geographic Urheimat**: **$4.15^\circ	ext{N}, 37.85^\circ	ext{E}$** (East African Rift / Omo-Turkana Basin, $450	ext{ km}$ confidence radius).
 * **De Novo Reconstructed Master Lexicon**: Time-stratified dynamic alignment across 16 intermediate proto-ancestors reconstructs de novo roots (e.g., `*ʔap'a` *father*, `*ʔam'a` *mother*, `*wA-t'V` *water*, `*káp-ut-` *head*, `*m-i-kʷe` *who*, `*m-a-kʷe` *what*, `*s-t'eːr-` *star*).
 
-## Repository Structure
-
-```
-proto_human_evolution_repository/
-├── data/                                 # SQLite Databases (Phases 2-5)
-│   ├── phase2.db                         # 3,606 Universal Sound Laws & Transitions
-│   ├── phase3_monogenesis.db             # Bayesian Model Comparison
-│   ├── phase4_proto_languages.db         # Intermediate Proto-Trunks (African, Eurasian, Oceanic)
-│   └── phase5_proto_human.db             # Proto-Human Master Lexicon & Telemetry
-├── data_exports/                         # CSV Master Dictionary Exports
-│   ├── proto_human_dictionary.csv        # 109 Swadesh Reconstructed Concepts
-│   └── proto_languages_dictionary.csv    # 327 Intermediate Branch Reconstructions
-├── pipeline_scripts/                     # Python Reconstruction Engine (Engine 3.0)
-│   ├── phase4_reconstruct_lexicon.py
-│   └── phase5_reconstruct_lexicon.py
-├── monograph/                            # Full Scientific Monograph Manuscripts
-│   ├── GRAND_UNIFIED_LINGUISTIC_MONOGRAPH_EN.md
-│   └── GRAND_UNIFIED_LINGUISTIC_MONOGRAPH_RU.md
-└── docs/                                 # Telemetry & Analysis Reports
-    └── BAYESIAN_TELEMETRY_REPORT.md
-```
-
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
 ...
